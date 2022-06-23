@@ -1,11 +1,6 @@
+#pacman::p_load("openxlsx", "rJava", "xlsx", "xlsxjars", "zip")
 
 library(rsconnect)
-# install.packages("shinyWidgets")
-#pacman::p_load("openxlsx", "rJava", "xlsx", "xlsxjars", "zip")
-# rsconnect::setAccountInfo(name='abeceasarperez', token='737D7AF42F6023A8308E278EF49E4F6B', secret='FWYCj6Vcwvm7phapZQssQXl/FLiwc3gq+5ctQC6q')
-#rsconnect::deployApp("C:\\Users\\Abe\\Desktop\\Dataquest modules\\Datasets for Practice + Codes Used for Analysis\\aircraft_incidents")
-
-
 library(shinydashboard)
 library(shinyWidgets)
 library(tidyverse)
