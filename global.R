@@ -1,9 +1,4 @@
-# install.packages("shinyWidgets")
-#pacman::p_load("openxlsx", "rJava", "xlsx", "xlsxjars", "zip")
-# rsconnect::setAccountInfo(name='abeceasarperez', token='737D7AF42F6023A8308E278EF49E4F6B', secret='FWYCj6Vcwvm7phapZQssQXl/FLiwc3gq+5ctQC6q')
-#rsconnect::deployApp("C:\\Users\\Abe\\Desktop\\Dataquest modules\\Datasets for Practice + Codes Used for Analysis\\aircraft_incidents")
-
-library(rsconnect) 
+library(rsconnect) # connect to shinyapps
 library(shinydashboard) # loads shiny dashboard packages
 library(shinyWidgets) # loads widgets
 library(tidyverse) # data-science functions
@@ -11,10 +6,8 @@ library(lubridate) # date functions
 library(maps) # load maps
 library(RColorBrewer) # color of maps
 library(forcats) # map color-coding intervals
-#library(gridExtra)
-library(TTR) # 
+library(TTR) # for loading SMA function
 library(readxl) # loading the excel file
-#library(shiny)
 
 crashes <- read_excel("Plane Crashes.xlsx") # loads the file
 
